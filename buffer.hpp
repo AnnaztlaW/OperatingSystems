@@ -1,3 +1,7 @@
+//Anna Waltz
+//shared contents between the producer and consumer
+//is not active "shared memory"
+
 #include <iostream>
 #include <fcntl.h>
 #include <sys/mman.h>

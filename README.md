@@ -1,5 +1,5 @@
-# OperatingSystems
-Code within repository is for Kent State course titled operating systems coding project one. 
+# Operating Systems
+Code within repository is for Kent State course titled Operating Systems coding project one. 
 ## Overview
 This project attempts to implement the producer consumer 
 relationship in the shared memory utilizing a buffer. The producer generates items and puts items onto the table. <b/>

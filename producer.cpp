@@ -1,7 +1,7 @@
 //Anna Waltz
 // producer and consumer problem
 //
-// producer program
+// PRODUCER program
 //
 
 #include "buffer.hpp"
