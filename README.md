@@ -20,3 +20,10 @@ $ g++ consumer.c -pthread -lrt -o consumer
 ./producer && ./consumer
 ```
 
+Output expectation will appear different each time and the values added to the table are randomly generated numbers of values 1 through 10. <b/>But the following is an example:
+```bash
+Producer produced data: 5
+Producer produced data: 6
+Consumer is consuming data: 5
+Consumer is consuming data: 6
+```
