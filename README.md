@@ -1,13 +1,14 @@
 # Operating Systems
 Code within repository is for Kent State course titled Operating Systems coding project one. 
 ## Overview
-This project attempts to implement the producer consumer 
-relationship in the shared memory utilizing a buffer. The producer generates items and puts items onto the table. <br />
-The consumer will pick up items. The table can only hold two items at the same time. When the table is complete, the producer will wait. <br />
+This project attempts to implement the producer consumer relationship in the shared memory utilizing a buffer. <br />
+The producer generates items and puts items onto the table. The consumer will pick up items. <br />
+The table can only hold two items at the same time. When the table is complete, the producer will wait. <br />
 When there are no items, the consumer will wait<br /> 
+
 Semaphores are used to synchronize producer and consumer.<br />
 Mutual exclusion is considered. <br />
-We use threads in the producer program and consumer program. <b />
+We use threads in the producer program and consumer program. <br />
 Shared memory is used for the “table”.<br />
 
 There are two programs one for the producer and one for the consumer.<br />
