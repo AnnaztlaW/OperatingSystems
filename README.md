@@ -18,7 +18,7 @@ To compile the program two steps are nessesary. Clone the respository and run th
 ```bash
 $ g++ producer.c -pthread -lrt -o producer
 $ g++ consumer.c -pthread -lrt -o consumer
-./producer && ./consumer
+./producer & ./consumer &
 ```
 
 Output expectation will appear different each time and the values added to the table are randomly generated numbers of values 1 through 10. <br/>But the following is an example:
