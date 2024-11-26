@@ -16,8 +16,8 @@ There are two programs one for the producer and one for the consumer.<br />
 ## Compilation
 To compile the program two steps are nessesary. Clone the respository and run the following:
 ```bash
-$ g++ producer.c -pthread -lrt -o producer
-$ g++ consumer.c -pthread -lrt -o consumer
+$ g++ producer.cpp -pthread  -o producer
+$ g++ consumer.cpp -pthread  -o consumer
 ./producer & ./consumer &
 ```
 
